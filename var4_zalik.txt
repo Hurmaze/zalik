@@ -1,0 +1,6 @@
+#!/bin/bash
+$1
+wget "$1" -O downloaded_file.txt 
+echo "Number of strings:"
+wc -l downloaded_file.txt
+
